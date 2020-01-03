@@ -9,6 +9,8 @@ It is written as a user-space application over the standard linux drivers gpio a
 ## How to install
 Simply clone the repository and run the setup.py script. Someday maybe it will be available on PyPI.
 ```bash
+sudo apt-get install python-dev   # for python2.x installs
+sudo apt-get install python3-dev  # for python3.x installs
 git clone https://github.com/Inteform/PyLora.git
 cd PyLora
 python setup.py build
